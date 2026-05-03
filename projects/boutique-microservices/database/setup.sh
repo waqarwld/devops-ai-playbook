@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # ========================================
 # BOUTIQUE DATABASE SETUP SCRIPT

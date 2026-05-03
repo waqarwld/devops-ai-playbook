@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Boutique Microservices Health Check
 echo "🔍 Checking Boutique Microservices Health..."
