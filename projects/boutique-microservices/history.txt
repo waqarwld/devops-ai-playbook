@@ -1,0 +1,267 @@
+    1  curl -fsSL https://openclaw.ai/install.sh | bash
+    2  openclaw --help
+    3  openclaw health
+    4  openclaw config get gateway.auth.token
+    5  openclaw doctor --generate-gateway-token
+    6  openclaw config get gateway.auth.token
+    7  openclaw doctor status
+    8  openclaw gateway run
+    9  openclaw dashboard
+   10  openclaw gateway run -d
+   11  openclaw gateway run 
+   12  openclaw --help
+   13  openclaw channel --help
+   14  openclaw --help
+   15  openclaw gateway run 
+   16  ipconfig
+   17  ollama list models
+   18  ollama list
+   19  ollama pull --help
+   20  ollama --help
+   21  ollama list
+   22  ollama pull qwen3-v|:8b
+   23  ollama pull qwen3-vI:8b
+   24  ollama pull qwen3-v1:8b
+   25  ollama pull qwen3-v1:8b
+   26  ollama 
+   27  ollama --help
+   28  ollama pull qwen3-vI:8b
+   29  clear
+   30  ollama serve
+   31  ollama serve
+   32  openclaw --help
+   33  openclaw models --help
+   34  openclaw status
+   35  openclaw onboard
+   36  ollama dashboard
+   37  openclaw gateway
+   38  ollama launch claude
+   39  mkdir claude
+   40  cd claude
+   41  ollama launch claude
+   42  claude
+   43  ollama launch claude
+   44  exit
+   45  ls
+   46  cd reop
+   47  ls
+   48  cd repo/
+   49  ls
+   50  cd devops-ai-playbook/
+   51  cd projects/
+   52  cd boutique-microservices/
+   53  ls
+   54  cat docker-compose.yml 
+   55  ollama ps
+   56  ls
+   57  ls -la
+   58  ls -a
+   59  cd repo
+   60  ls
+   61  cd devops-ai-playbook/
+   62  git --help
+   63  git fetch
+   64  git status
+   65  git pull --help
+   66  git pull
+   67  ls
+   68  cd projects/
+   69  ls
+   70  cd boutique-microservices/
+   71  ls
+   72  ls -l
+   73  docker ps
+   74  start 'docker desktop'
+   75  ollama ps
+   76  ollama list
+   77  ollama rm gemma4:latest
+   78  ollama list
+   79  ollama launch claude --model gemma4:e4b
+   80  docker compose up -d 
+   81  docker compose down
+   82  docker compose up -d 
+   83  docker ps
+   84  docker compose down
+   85  docker compose up -d 
+   86  cat docker-compose.yml 
+   87  ls
+   88  cd frontend/
+   89  ls
+   90  ls -la
+   91  cat nginx.conf 
+   92  cat Dockerfile 
+   93  ls
+   94  cd ..
+   95  ls
+   96  cd backend/
+   97  ls
+   98  cdd services/
+   99  ls
+  100  cd services/
+  101  ls
+  102  cd ..
+  103  ls
+  104  cd ..
+  105  ls
+  106  cd database/
+  107  ls
+  108  cd init/
+  109  ls
+  110  cd .. 
+  111  cd ..
+  112  ls
+  113  ls -la
+  114  cat .env.example 
+  115  ls
+  116  ls -la
+  117  cd database/
+  118  ls
+  119  cat setup.sh 
+  120  cd ..
+  121  ls
+  122  cd frontend/
+  123  ls
+  124  cat package.json 
+  125  cd ..
+  126  ls
+  127  docker compose down
+  128  ls -la
+  129  ollama launch claude
+  130  exit
+  131  cd repo
+  132  ls
+  133  cd devops-ai-playbook/
+  134  ls
+  135  cd projects/
+  136  ls
+  137  cd boutique-microservices/
+  138  ls
+  139  docker volume ls
+  140  docker compose up -d
+  141  docker logs boutique-postgres
+  142  docker ps
+  143  docker conpose down
+  144  docker compose down
+  145  docker volume ls
+  146  docker volume rm boutique-microservies_postgres_data
+  147  docker volume rm boutique-microservices_postgres_data
+  148  docker ps
+  149  docker compose up -d
+  150  docker logs boutique-postgres
+  151  docker compose down
+  152  docker volume rm boutique-microservices_postgres_data
+  153  docker compose up -d
+  154  docker logs boutique-postgres
+  155  docker compose down
+  156  docker volume rm boutique-microservices_postgres_data
+  157  docker compose up -d
+  158  docker ps
+  159  docker logs boutique-postgres
+  160  docker ps
+  161  docker ps
+  162  docker logs boutique-frontend
+  163  docker logs boutique-frontend
+  164  docker compose down
+  165  docker volume ls
+  166  docker volume rm boutique-microservices_postgres_data
+  167  docker compose up -d
+  168  docker compose down
+  169  docker compose up -d
+  170  docker logs boutique-frontend
+  171  docker compose down
+  172  docker ps
+  173  docker compose down -v
+  174  docker compse up -d
+  175  docker compose up -d
+  176  docker exec -it boutique-frontend /bin/bash
+  177  docker exec -it boutique-frontend /bin/sh
+  178  docker compose down -v
+  179  docker compose build --no-cache frontend
+  180  docker rmi $(docker images -q)
+  181  docker images
+  182  docker ps
+  183  docker-compose -f docker-compose.yml up -d
+  184  docker logs boutique-frontend
+  185  docker compose down -v
+  186  docker rmi $(docker images -q)
+  187  cd frontend/
+  188  ls
+  189  npm install
+  190  npm run build
+  191  cd ..
+  192  docker compose up -d
+  193  docker logs boutique-frontend
+  194  docker compose down -v
+  195  docker compose up -d --build
+  196  docker ps
+  197  docker rmi $(docker images -q)
+  198  docker compose down -v
+  199  docker volume ls
+  200  docker compose build --no-cache --progress=plain frontend
+  201  docker ps
+  202  docker images
+  203  docker compose up -d --build
+  204  docker compose down -v
+  205  docker volume ls
+  206  docker compose up -d --build
+  207  docker compose down -v
+  208  docker compose up -d --build
+  209  docker logs boutique-frontend
+  210  cat /frontend/.env
+  211  cd frontend/
+  212  cat .env
+  213  cd ..
+  214  docker ps | grep gateway
+  215  docker logs boutique-gateway
+  216  docker compose down -v
+  217  docker compose up -d --build
+  218  docker logs boutique-gatewa
+  219  docker logs boutique-gateway
+  220  docker compose down -v
+  221  cat docker-compose.yml 
+  222  docker compose up -d --build
+  223  docker logs boutique-gateway
+  224  docker ps | grep frontend
+  225  docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
+  226  curl -X localhost:3001
+  227  curl -x localhost:3001
+  228  curl  localhost:3001
+  229  docker logs boutique-gateway
+  230  cat docker-compose.yml | grep -A 10 "frontend:"
+  231  docker compose down -v
+  232  docker compose up -d --build
+  233  cd ..
+  234  cd ..
+  235  cd ..
+  236  git status
+  237  cd devops-ai-playbook/
+  238  git status
+  239  git add .
+  240  git commit -a "lots of errors fixed "
+  241  git commit --help
+  242  git commit
+  243  git login
+  244  git --help
+  245  git config --help
+  246    git config --global user.email "waqarwld@gmail.com"
+  247    git config --global user.name "waqarwld"
+  248  git commit 
+  249  git push --help
+  250  git --help
+  251  git push
+  252  git push origin fixed-errors
+  253  git branch -a
+  254  git branch
+  255  git checkout fixed-errors
+  256  git --help
+  257  git branch
+  258  git status
+  259  git add .
+  260  ls
+  261  cd projects/
+  262  ls
+  263  cd ..
+  264  cd projects/boutique-microservices/
+  265  ls
+  266  docker compose down
+  267  history > history.txt
