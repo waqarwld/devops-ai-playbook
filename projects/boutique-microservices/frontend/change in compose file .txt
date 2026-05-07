@@ -1,0 +1,12 @@
+frontend:
+  build:
+    context: ./frontend
+    dockerfile: Dockerfile
+  container_name: boutique-frontend
+  ports:
+    - "3000:3000"
+  depends_on:
+    - gateway
+  networks:
+    - boutique-network
+  restart: unless-stopped
